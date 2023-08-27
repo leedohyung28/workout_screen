@@ -38,8 +38,8 @@ class _workout_screenState extends State<workout_screen> {
                         'your exercises',
                         style: TextStyle(
                           color: custom_colors.txtLightBlack,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w400,
+                          fontSize: 30,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ],
@@ -56,6 +56,7 @@ class _workout_screenState extends State<workout_screen> {
                 Transform.translate(
                   offset: const Offset(-20, 0),
                   child: Container(
+                    height: 100,
                     width: 440,
                     decoration: const BoxDecoration(
                       color: Colors.white,
